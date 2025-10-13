@@ -1,22 +1,23 @@
-
-import { SignedIn, SignedOut, SignIn, SignInButton, SignOutButton } from '@clerk/nextjs'
-import React from 'react'
+import {
+  SignedIn,
+  SignedOut,
+  SignInButton,
+  SignOutButton,
+} from "@clerk/nextjs";
+import React from "react";
 
 const HomePage = () => {
   return (
     <div>
       this is home page
       <SignedOut>
-        <SignInButton/>
+        <SignInButton />
       </SignedOut>
-
       <SignedIn>
-        <SignOutButton/>
+        <SignOutButton />
       </SignedIn>
-
-
     </div>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;
