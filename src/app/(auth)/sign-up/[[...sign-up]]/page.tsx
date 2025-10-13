@@ -3,9 +3,10 @@ import React from 'react'
 
 const SignUpPage = () => {
   return (
-    <main className='flex h-screen w-full items-center justify-between'>
+    <div className='flex h-screen w-full items-center justify-between'>
         <SignUp/>
-    </main>
+    </div>
+
   )
 }
 
