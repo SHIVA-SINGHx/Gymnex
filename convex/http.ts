@@ -62,7 +62,31 @@ http.route({
                return new Response("Error creating user", {status: 500})
             }
          }
-         
-        
+              
 })
+
+})
+
+http.route({
+    path: "/vapi/program-generate",
+    method: "POST",
+    handler: httpAction( async(ctx, request) => {
+        try {
+            const payload = await request.json()
+            const {
+                age,
+                weight,
+                height,
+                fitness_goal,
+                fitness_level,
+                user_id,
+                workout,
+                injuries
+            } = payload
+        } catch (error) {
+            
+        }
+
+
+    })
 })
