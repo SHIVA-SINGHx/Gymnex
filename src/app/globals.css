@@ -224,3 +224,15 @@
 .animate-fadeIn {
   animation: fadeIn 0.5s ease-in-out forwards;
 }
+
+
+/* Overlay animation */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.animate-typing {
+  width: 0;
+  animation: typing 2s steps(40, end) forwards;
+}

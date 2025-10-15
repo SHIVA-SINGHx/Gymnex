@@ -1,4 +1,6 @@
+import Overlay from "@/components/Overlay";
 import { Button } from "@/components/ui/button";
+import UserProgram from "@/components/UserProgram";
 import { ArrowRightIcon } from "lucide-react";
 import Link from "next/link";
 
@@ -47,7 +49,7 @@ const HomePage = () => {
                 </div>
                 <div className="h-12 w-px bg-gradient-to-b from-transparent via-border to-transparent"></div>
                 <div className="flex flex-col">
-                  <div className="text-2xl text-primary">3min</div>
+                  <div className="text-2xl text-primary">3.5min</div>
                   <div className="text-xs uppercase tracking-wider">
                     INSTANT PLAN BUILDER
                   </div>
@@ -114,11 +116,18 @@ const HomePage = () => {
 
                   <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
                 </div>
+
+                {/* Overlay */}
+                <Overlay/>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      {/* UserProgram */}
+
+      <UserProgram/>
     </div>
   );
 };
