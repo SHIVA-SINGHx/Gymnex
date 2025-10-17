@@ -98,7 +98,7 @@ Add a screenshot of your app here (example):
 
 
 🔗 [GitHub](https://github.com/SHIVA-SINGHx)  
-🔗 [X]([https://linkedin.com/in/shiva-singh](https://x.com/Shivatwd1))  
+🔗 [X](https://x.com/Shivatwd1)
 
 ---
 
