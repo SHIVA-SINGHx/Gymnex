@@ -94,11 +94,11 @@ Add a screenshot of your app here (example):
 
 ## 👨‍💻 Author
 
-**Shiva Singh** — Full Stack Developer & AI Enthusiast  
-Building smarter solutions that merge **fitness + technology + AI** 🧠⚙️  
+**Shiva Singh** 
+
 
 🔗 [GitHub](https://github.com/SHIVA-SINGHx)  
-🔗 [LinkedIn](https://linkedin.com/in/shiva-singh)  
+🔗 [X]([https://linkedin.com/in/shiva-singh](https://x.com/Shivatwd1))  
 
 ---
 
