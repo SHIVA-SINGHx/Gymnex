@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏋️‍♂️ Gymnex — Your Personal AI Fitness Assistant
 
-## Getting Started
+> 💬 "Talk. Train. Transform."  
+> Gymnex is an AI-powered fitness companion that gives you **personalized workout and diet recommendations** through natural voice interaction and smart analysis.
 
-First, run the development server:
+---
 
+## 🧠 Overview
+Gymnex is your all-in-one AI gym assistant designed to make fitness personal, intelligent, and interactive.  
+Using advanced AI models, Gymnex listens, understands, and generates fitness plans tailored to your goals, lifestyle, and body stats — powered by **voice AI** and **Gemini intelligence**.
+
+---
+
+## 🚀 Key Features
+
+✅ **Voice-Powered Interaction** – Talk naturally with your AI trainer (using **Vapi** for real-time speech).  
+✅ **AI-Generated Fitness Plans** – Personalized workout + diet recommendations powered by **Google Gemini API**.  
+✅ **Smart User Profiling** – The assistant learns your fitness level, goals, and injuries to customize every response.  
+✅ **Next.js UI** – Smooth, fast, and modern frontend built with **Next.js** and **Tailwind CSS**.  
+✅ **ShadCN UI Components** – Elegant, accessible, and modern UI elements for a clean professional look.  
+✅ **Dynamic AI Responses** – Real-time text + voice outputs with human-like tone and clarity.  
+
+---
+
+## 🧰 Tech Stack
+
+| Category | Tools / Frameworks |
+|-----------|--------------------|
+| **Frontend** | Next.js 14, React, Tailwind CSS, ShadCN UI |
+| **Voice AI** | Vapi (Voice Assistant API) |
+| **AI Model** | Google Gemini (LLM for text & logic) |
+| **Styling** | Tailwind CSS + Custom Cyber Theme |
+| **Deployment** | Vercel / GitHub Pages |
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/SHIVA-SINGHx/Gymnex.git
+cd Gymnex
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2️⃣ Install Dependencies
+```bash
+npm install
+# or
+yarn install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3️⃣ Add Environment Variables
+Create a `.env.local` file in the root and add:
+```bash
+NEXT_PUBLIC_VAPI_KEY=your_vapi_key_here
+NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key_here
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 4️⃣ Run the Development Server
+```bash
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) to see your app live 🚀  
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🗣️ How It Works
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. User interacts with Gymnex using text or voice.  
+2. The AI collects basic fitness info — age, height, weight, injuries, fitness goals, etc.  
+3. Gemini AI processes the data and generates a **personalized fitness & diet plan**.  
+4. Vapi converts Gemini’s response into **human-like voice output**.  
+5. The user can continuously chat, refine, or ask for new plans in real-time.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🎨 UI Preview
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Add a screenshot of your app here (example):
+```
+/public/preview.png
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🧩 Future Enhancements
+
+- 🧬 AI Progress Tracking  
+- 📱 Mobile App version  
+- 🔊 Multi-language voice support  
+- 🧘 Personalized Yoga & Mindfulness modules  
+
+---
+
+## 👨‍💻 Author
+
+**Shiva Singh** — Full Stack Developer & AI Enthusiast  
+Building smarter solutions that merge **fitness + technology + AI** 🧠⚙️  
+
+🔗 [GitHub](https://github.com/SHIVA-SINGHx)  
+🔗 [LinkedIn](https://linkedin.com/in/shiva-singh)  
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub — it helps a lot 🙌  
